@@ -25,12 +25,12 @@ html{
 
 .carousel-item h1 {
     color: #fff;
-    font-size: 4rem;
+    font-size: 6rem;
     padding: 0 10%;
  }
 
  .carousel-item p {
- 	font-size: 1.3rem;
+ 	font-size: 2rem;
  }
 
 
@@ -93,22 +93,33 @@ html{
     text-transform: uppercase;
 	font-weight: 300;
     position: fixed;
-    top: 50%; 
-    left: 20% !important;
-    transform: translate(-50%, -50%);
-    max-width: 30%;
+    top: 20%; 
+    left: 5% !important;
+    max-width: 32%;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 
 @media only screen and (max-width: 600px){
 	.textpos {
 		max-width: 100%;
-		top:50%;
-		left:50% !important;
+		top:30%;
+		left:13%!important;
+
 	}
 }
 @media only screen and (max-width: 600px){
 	.textpos h1 {
-	font-size: 3.5rem;
+	font-size: 4.5rem;
+	 background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
 	}
+}
+@media only screen and (max-width: 600px){
+
+.textpos p{
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
 }
