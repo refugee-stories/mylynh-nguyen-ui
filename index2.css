@@ -1,0 +1,61 @@
+.carousel-item {
+  height: 100vh;
+  background: #212121;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 8% !important;
+}
+
+.carousel-item.active,
+.carousel-item-left,
+.carousel-item-right {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item h1 {
+    color: #fff;
+    font-size: 72px;
+    padding: 0 10%;
+ }
+
+ .fade {
+    -webkit-animation: fadein 2.5s; /* Safari and Chrome */
+    -moz-animation: fadein 2.5s; /* Firefox */
+    -ms-animation: fadein 2.5s; /* Internet Explorer */
+    -o-animation: fadein 2.5s; /* Opera */
+    animation: fadein 2.5s;
+    animation-fill-mode: forwards;
+}
+    
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+};
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
