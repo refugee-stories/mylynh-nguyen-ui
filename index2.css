@@ -1,3 +1,7 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+
+
 .carousel-item {
   height: 100vh;
   width: 100vw;
@@ -61,11 +65,43 @@
     to   { opacity: 1; }
 }​
 
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:100%;
+    height:100%;
+
+}
+
+.carousel-caption div {
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+    color: #ffffff;
+}
+
+.textpos {
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: uppercase;
+	font-weight: 300;
+    position: fixed;
+    top: 50%; 
+    left: 20% !important;
+    transform: translate(-50%, -50%);
+    max-width: 30%;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+@media only screen and (max-width: 600px){
+	.textpos {
+		max-width: 100%;
+		top:50%;
+		left:50% !important;
+	}
+}
+@media only screen and (max-width: 600px){
+	.textpos h1 {
+	font-size: 3.5rem;
+	}
 }
