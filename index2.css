@@ -104,7 +104,7 @@ html{
 @media only screen and (max-width: 850px){
 	.textpos {
 		max-width: 100%;
-    top:30%;
+    top:25%;
 		left:13%!important;
 
 	}
