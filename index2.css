@@ -91,7 +91,7 @@ html{
 .textpos {
     font-family: "Source Sans Pro", sans-serif;
     text-transform: uppercase;
-	font-weight: 300;
+	  font-weight: 300;
     position: fixed;
     top: 30%; 
     left: 5% !important;
@@ -202,4 +202,27 @@ color:grey!important;
     color: white;
   }
 
+}
 
+.buttonDude {
+  background-color: transparent;
+  border: 0.5px solid white;
+  color: white;
+  padding: 1rem 3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  border-radius: 2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.buttonDude:hover {
+  background-color: grey;
+  color:black;
+  border: 0.5px solid black;
+}

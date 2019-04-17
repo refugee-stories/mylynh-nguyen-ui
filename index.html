@@ -15,7 +15,7 @@
   <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Refugee Stories</a>
+      <a data-target="#demo" data-slide-to="0" href="#" class="navbar-brand js-scroll-trigger myCarousel-target active">Refugee Stories</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -23,10 +23,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a data-target="#demo" data-slide-to="1" href="#" class="nav-link js-scroll-trigger myCarousel-target" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a data-target="#demo" data-slide-to="2" href="#" class="nav-link js-scroll-trigger myCarousel-target" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#signup">Login</a>
@@ -42,17 +42,18 @@
 
 
   <div class="carousel-inner">
-    <div class="carousel-item active fade ">
+    <div data-slide-no="0" class="carousel-item active fade slide">
       <img src=images/splash1.jpg>
       <div class="carousel-caption textpos">
         <h1>BE THE CHANGE</h1>
         <br><br>
         <p>Global citizenship starts with awareness, empathy, and the ability to change. Unify humanity and celebrate cultures by sharing your experiences, one story at a time.</p>
-        <p><button>Sign Up</button></p>
+        <br>
+        <p><button class="buttonDude">Sign Up</button></p>
       </div>
     </div>
    
-    <div class="carousel-item fade ">
+    <div data-slide-no="1" class="carousel-item fade slide">
       <img src=images/splash4-1.jpg>
        <div class="carousel-caption textpos">
         <h1><a id="about">ABOUT</a></h1>
@@ -60,7 +61,7 @@
         <p>We are an organization that believe in the celebration of humanity. From different backgrounds, cultures, and experiences, we work together to create a place where every person can tell their story. Our differences only serve to unite us as we stand together--as a whole. <strong><em>As one.</em></strong></p>
       </div>
     </div>
-    <div class="carousel-item fade ">
+    <div data-slide-no="2" class="carousel-item fade slide">
      <img src="images/splash3-1.jpg">
       <div class="carousel-caption textpos box-shadow">
         <h1>Projects</h1>

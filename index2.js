@@ -14,7 +14,7 @@ function debounce(func, wait, immediate) {
   };
 }
 
-var slider = document.getElementById("demo");
+
 var onScroll = debounce(function(direction) {
   //console.log(direction);
   if (direction == false) {
@@ -24,37 +24,11 @@ var onScroll = debounce(function(direction) {
   }
 }, 100, true);
 
-slider.addEventListener("wheel", function(e) {
-  e.preventDefault();
-  var delta;
-  if (event.wheelDelta) {
-    delta = event.wheelDelta;
-  } else {
-    delta = -1 * event.deltaY;
-  }
-
-  onScroll(delta >= 0);
-});
-
 
 //nav
 
 (function($) {
   "use strict"; // Start of use strict
-
-  // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top - 70)
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
-    }
-  });
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
@@ -81,3 +55,28 @@ slider.addEventListener("wheel", function(e) {
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
+
+
+document.querySelector(".buttonDude").onclick = function () {
+        location.href = "http://www.google.com";
+    };
+
+    $(document).ready(function() {
+  $(".carousel").carousel({
+    interval: 5000
+  });
+  $('#myCarousel').on('slide.bs.carousel', function() {
+
+
+    $(".myCarousel-target.active").removeClass("active");
+
+    $('#myCarousel').on('slid.bs.carousel', function() {
+
+      var to_slide = $(".carousel-item.active").attr("data-slide-no");
+
+      $(".nav-indicators li[data-slide-to=" + to_slide + "]").addClass("active");
+
+    });
+  });
+
+});
