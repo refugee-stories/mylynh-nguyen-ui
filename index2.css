@@ -101,15 +101,15 @@ html{
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 850px){
 	.textpos {
 		max-width: 100%;
-    top:22%;
+    top:30%;
 		left:13%!important;
 
 	}
 }
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 850px){
 	.textpos h1 {
 	font-size: 4.5rem;
 	 background: rgb(0, 0, 0); 
@@ -117,7 +117,7 @@ html{
    padding: 10px; 
 	}
 }
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 850px){
 
 .textpos p{
    background: rgb(0, 0, 0); 
