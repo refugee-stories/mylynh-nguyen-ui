@@ -5,7 +5,7 @@ I used: Bootstrap 4, CSS3 (animations), CSS, jQuery (for animation functions, an
 Side note: I also used images from unsplash and edited them to fit the layout and theme. I flipped images, cropped, changed saturation levels, colors, and added color filters to spur the feelings of inspiration and diversity, and to motivate others for action. 
 
 [x] Responsive Text (woah! rems!)
-[x] Responsive Image (and edited!)
+[x] Responsive Images (and edited!)
 [x] Responsive Background (faaaaade!)
 [x] Responsive Navbar that transitions with media query (no way! transparency! fade ins!)
 [x] Responsive animations!!! (woah?!!?)
