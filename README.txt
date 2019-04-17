@@ -1,30 +1,12 @@
-Dimension by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+MYLYNH-NGUYEN-UI
 
+I used: Bootstrap 4, CSS3 (animations), CSS, jQuery (for animation functions, animated carousel class to add and remove active class dependent on which slide), javascript for button functions, navbar functions, and carousel functions.
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
-Hope you dig it :)
+Side note: I also used images from unsplash and edited them to fit the layout and theme. I flipped images, cropped, changed saturation levels, colors, and added color filters to spur the feelings of inspiration and diversity, and to motivate others for action. 
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+[x] Responsive Text (woah! rems!)
+[x] Responsive Image (and edited!)
+[x] Responsive Background (faaaaade!)
+[x] Responsive Navbar that transitions with media query (no way! transparency! fade ins!)
+[x] Responsive animations!!! (woah?!!?)
+[x] Hype level: OVER 9000!!
