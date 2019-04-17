@@ -10,3 +10,6 @@ Side note: I also used images from unsplash and edited them to fit the layout an
 [x] Responsive Navbar that transitions with media query (no way! transparency! fade ins!)
 [x] Responsive animations!!! (woah?!!? a slide in effect for carousel!)
 [x] Hype level: OVER 9000!!
+
+
+I didn't use a template for this website.
