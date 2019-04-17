@@ -58,7 +58,7 @@ var onScroll = debounce(function(direction) {
 
 
 document.querySelector(".buttonDude").onclick = function () {
-        location.href = "http://www.google.com";
+        location.href = "https://refugee-stories.netlify.com/story-form";
     };
 
     $(document).ready(function() {
