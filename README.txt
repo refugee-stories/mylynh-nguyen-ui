@@ -8,5 +8,5 @@ Side note: I also used images from unsplash and edited them to fit the layout an
 [x] Responsive Images (and edited!)
 [x] Responsive Background (faaaaade!)
 [x] Responsive Navbar that transitions with media query (no way! transparency! fade ins!)
-[x] Responsive animations!!! (woah?!!?)
+[x] Responsive animations!!! (woah?!!? a slide in effect for carousel!)
 [x] Hype level: OVER 9000!!
