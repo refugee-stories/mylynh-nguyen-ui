@@ -63,7 +63,7 @@ document.querySelector(".buttonDude").onclick = function () {
 
     $(document).ready(function() {
   $(".carousel").carousel({
-    interval: 5000
+    interval: false
   });
   $('#myCarousel').on('slide.bs.carousel', function() {
 
