@@ -61,6 +61,8 @@ document.querySelector(".buttonDude").onclick = function () {
         location.href = "https://refugee-stories.netlify.com/story-form";
     };
 
+    //jquery for adding a class and removing on click for carousel
+
     $(document).ready(function() {
   $(".carousel").carousel({
     interval: false
@@ -80,3 +82,30 @@ document.querySelector(".buttonDude").onclick = function () {
   });
 
 });
+
+    //animating border on hover
+
+const content = document.querySelectorAll("h1");
+
+for ( var i = 0 ; i < content.length ; i++){
+  
+content[i].addEventListener("mouseover", function(e) {
+    const parent = e.target.parentElement;
+    if (parent && parent.tagName === "div" && parent.classList.contains("textpos")) {
+        const parent = e.target.parentElement;
+        parent.children[1].classList.add("border");
+    }
+});
+
+}
+
+    
+const border = document.getElementsByClassName("border");
+
+for ( var i = 0 ; i < border.length ; i++){
+
+border[i].addEventListener("mouseout", function(e) {
+    e.target.classList.remove("border");
+});
+
+}
