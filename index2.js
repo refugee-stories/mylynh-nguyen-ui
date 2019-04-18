@@ -58,7 +58,7 @@ var onScroll = debounce(function(direction) {
 
 
 document.querySelector(".buttonDude").onclick = function () {
-        location.href = "https://refugee-stories.netlify.com/story-form";
+        location.href = "https://refugee-story.netlify.com/story-form";
     };
 
     //jquery for adding a class and removing on click for carousel
